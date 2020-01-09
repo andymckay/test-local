@@ -11,4 +11,4 @@ jobs:
     - uses: actions/checkout@v2.0.0
     - uses: ./.
       with: 
-        gisturl: "d8dedd5f430521a1ae1af8c2d73c46eb"
+        gisturl: "https://gist.github.com/andymckay/d8dedd5f430521a1ae1af8c2d73c46eb"
