@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: .
+    - uses: actions/checkout@v2.0.0
+    - uses: ${{ env.GITHUB_WORKSPACE }}
       with: 
         gisturl: "d8dedd5f430521a1ae1af8c2d73c46eb"
