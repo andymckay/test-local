@@ -9,3 +9,5 @@ jobs:
 
     steps:
     - uses: .
+      with: 
+        gisturl: "d8dedd5f430521a1ae1af8c2d73c46eb"
