@@ -6,4 +6,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "hello world"
+    - uses: andymckay/get-gist-action@master
+    
