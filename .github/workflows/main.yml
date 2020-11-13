@@ -10,4 +10,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: something
       run: echo `ls`
-    - uses: ./.
+    - uses: ./
